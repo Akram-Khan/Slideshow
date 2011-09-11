@@ -1,0 +1,51 @@
+
+<div id="slideshow">
+	<div id="slideshowWindow">
+
+	
+		<div class="slide">	
+			<%=image_tag "Ror.png"%>
+				<div class="slideText">
+					<h2 class="slideTitle">Slide 1</h2>
+					<p class="slideDes">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<p>
+					<p class="slideLink">
+					<%=link_to "click here", "#", :remote => true%>
+					</p>
+				</div>
+		</div>
+
+		<div class="slide">
+			<%=image_tag "Shopify.png"%>
+				<div class="slideText">
+				<h2 class="slideTitle">Slide </h2>
+					<p class="slideDes">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<p>
+					<p class="slideLink">
+					<%=link_to "click here", "#", :remote => true%>
+					</p>
+				</div>
+				
+		</div>
+
+		<div class="slide">
+			<%=image_tag "pat-garrett-and-billy-the-kid.jpg"%>
+
+			<div class="slideText">
+				<h2 class="slideTitle">Slide </h2>
+					<p class="slideDes">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					<p>
+					<p class="slideLink">
+					<%=link_to "click here", "#", :remote => true%>
+					</p>
+				</div>
+		</div>
+
+	</div>
+</div>

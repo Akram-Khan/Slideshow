@@ -1,0 +1,2 @@
+module SlideshowHelper
+end

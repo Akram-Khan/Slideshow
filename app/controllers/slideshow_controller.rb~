@@ -1,0 +1,4 @@
+class SlideshowController < ApplicationController
+
+@new_image =Slideshow
+end
